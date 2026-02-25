@@ -1,0 +1,21 @@
+# Team Roles and Permissions Configuration
+
+roles:
+  - name: Developer
+    permissions:
+      - push
+      - pull
+      - create-branch
+  - name: Reviewer
+    permissions:
+      - pull
+      - comment
+  - name: Admin
+    permissions:
+      - push
+      - pull
+      - create-branch
+      - manage-repo
+      - delete-repo
+
+# Note: Please adjust permissions as necessary to fit your team structure.
